@@ -32,8 +32,6 @@ class ServerRequestDelegate implements Hiraeth\Delegate
 	 */
 	public function __invoke(Hiraeth\Broker $broker): object
 	{
-		$_SERVER['REMOTE_ADDR'] = trim($_SERVER['REMOTE_ADDR'], '[]');
-
 		return Diactoros\ServerRequestFactory::fromGlobals();
 	}
 }
