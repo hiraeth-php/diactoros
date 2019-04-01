@@ -22,7 +22,8 @@
 	;
 
 	delegates = [
-		"Hiraeth\Diactoros\ServerRequestDelegate"
+		"Hiraeth\Diactoros\ServerRequestDelegate",
+		"Hiraeth\Diactoros\ResponseDelegate"
 	]
 
 	;
