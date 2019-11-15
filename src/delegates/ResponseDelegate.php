@@ -19,7 +19,7 @@ class ResponseDelegate implements Hiraeth\Delegate
 	 */
 	static public function getClass(): string
 	{
-		return Diactoros\Respone::class;
+		return Diactoros\Response::class;
 	}
 
 
