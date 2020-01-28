@@ -3,7 +3,7 @@
 namespace Hiraeth\Diactoros;
 
 use Hiraeth;
-use Zend\Diactoros;
+use Laminas\Diactoros;
 
 /**
  * {@inheritDoc}
