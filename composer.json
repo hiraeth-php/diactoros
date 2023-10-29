@@ -18,8 +18,8 @@
         "classmap": ["src/"]
     },
     "require": {
-        "hiraeth/app": "^2.0",
-        "hiraeth/http": "^2.0",
+        "hiraeth/app": "^3.0",
+        "hiraeth/http": "^3.0",
         "laminas/laminas-diactoros": "^2.4",
 	"php-http/message": "^1.1",
 	"php-http/message-factory": "^1.1"
